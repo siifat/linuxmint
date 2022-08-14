@@ -5,10 +5,10 @@ echo "
 Installing desired fonts...
 
 "
-mkdir Downloads/Fonts/
+mkdir Downloads/Fonts
 cd Downloads/Fonts/
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
-mkdir /home/sifat/.local/share/fonts/
+mkdir /home/sifat/.local/share/fonts
 unzip FiraCode.zip -d /home/sifat/.local/share/fonts/
 cd Downloads/
 rm -rf Fonts/
