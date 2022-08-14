@@ -49,19 +49,23 @@ cd Downloads/
 git clone https://github.com/vinceliuice/Qogir-theme.git
 cd Qogir-theme/
 ./install.sh -d /home/sifat/.themes/
+cd ~
 cd Downloads/
 rm -rf Qogir-theme/
 git clone https://github.com/vinceliuice/Qogir-icon-theme.git
 cd Qogir-icon-theme/
 ./install.sh -d /home/sifat/.icons/
+cd ~
 cd Downloads/
 rm -rf Qogir-icon-theme/
+cd ~
 
 #Settings up Desktop
 git clone https://github.com/siifat/mintxfce.git
 cd mintxfce/
 cp terminalrc /home/sifat/.config/xfce4/terminal/
 cp whiskermenu-1.rc /home/sifat/.config/xfce4/panel/
+cd ~
 
 
 echo "
