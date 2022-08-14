@@ -33,6 +33,7 @@ cd fetch-master-6000/
 sudo echo "
 #Fetch Master 6000
 fm6000 -c bright_green -say "I Love Linux Mint!" -l 19 -m 10" >> /home/sifat/.bashrc
+cd ~
 cd Downloads/
 rm -rf nord-xfce-terminal/
 rm -rf fetch-master-6000/
@@ -43,6 +44,7 @@ sudo echo "eval "$(starship init bash)"" >> /home/sifat/.bashrc
 #Downloading Themes
 echo "Downloading themes..."
 sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf -yyqq
+cd ~
 cd Downloads/
 git clone https://github.com/vinceliuice/Qogir-theme.git
 cd Qogir-theme/
